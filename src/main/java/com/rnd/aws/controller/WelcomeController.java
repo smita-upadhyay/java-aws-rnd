@@ -39,7 +39,7 @@ public class WelcomeController {
       LOG.info("Your current Hostname : " + hostname);
       response =
           String.format(
-              "Welcome to AWS RnD Java Project auto deploy from Github. Server ip is %s and "
+              "Welcome to AWS RnD Java Project auto deploy from Github-v1.2. Server ip is %s and "
                   + "hostname %s",
               ip, hostname);
     } catch (UnknownHostException e) {
